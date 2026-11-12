@@ -30,7 +30,7 @@ Your API key comes with the Premium plan. Sign up at [dataporium.tech](https://d
 |---|---|---|
 | Company profile | `/company-info` | `symbol=AAPL` |
 | Daily prices of a stock, ETF, index or crypto | `/stock-price-1d` | `ticker=AAPL`, `^GSPC` or `BTC-USD` |
-| Income statement of one quarter | `/income-statements-summary` | `symbol=AAPL&fiscal_year_qtr=2024Q2` |
+| Income statement of one quarter | `/income-statements-summary` | `symbol=AAPL&fiscal_year_qtr=2025Q4` |
 | US economic series | `/economic-metrics` | `economic_metrics=unemployment_Rate` |
 | Treasury yield curve | `/treasury-yields/curve` | `compare=1m,1y` |
 | Homes for sale with a price cut | `/properties` | `zip=92602&price_cut=true` |
