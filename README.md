@@ -1,6 +1,6 @@
-# DataPorium API examples
+# Financial data API examples: curl, Python, JavaScript, R, Google Sheets and Excel
 
-Short, working examples of the [DataPorium](https://dataporium.tech) Data API in different languages and tools. The API is a REST financial data API with real-time and historical market data across stocks, ETFs, crypto, forex and commodities, plus company fundamentals, news, the US economy and US housing: 203 endpoints in 42 categories, all returning JSON.
+Short, working examples of the [DataPorium](https://dataporium.tech) financial data API in different languages and tools. Get stock prices, company financial statements, US economic data and US housing data with a few lines of code or a spreadsheet formula. The API covers real-time and historical market data across stocks, ETFs, crypto, forex and commodities, plus company fundamentals, news, the US economy and US housing: 203 endpoints in 42 categories, all returning JSON.
 
 | Folder | Use it from |
 |---|---|
@@ -46,6 +46,17 @@ All 203 endpoints and their parameters are in the [API documentation](https://da
 | 429 | Rate limit exceeded. The maximum is 600 requests per minute |
 | 500 | Internal server error. Try again or contact support |
 
+## Ready-made scripts
+
+Python scripts that each solve one task, built on the [Python library](https://github.com/DataPorium/dataporium-python):
+
+- [stock-price-history-to-csv](https://github.com/DataPorium/stock-price-history-to-csv): daily stock, ETF and crypto prices to CSV
+- [company-financials-to-excel](https://github.com/DataPorium/company-financials-to-excel): income statement, balance sheet and cash flow to Excel
+- [yield-curve-inversion-tracker](https://github.com/DataPorium/yield-curve-inversion-tracker): 10-year minus 2-year Treasury spread and every inversion
+- [inflation-by-category](https://github.com/DataPorium/inflation-by-category): which prices are rising fastest
+- [layoffs-tracker](https://github.com/DataPorium/layoffs-tracker): US layoffs by company, state and industry to CSV
+- [home-price-cut-finder](https://github.com/DataPorium/home-price-cut-finder): homes with the biggest price cuts by ZIP code, city or county
+
 ## Keep your key safe
 
 - Do not put the key in code that you commit or share. Use an environment variable or your tool's secret settings.
@@ -59,6 +70,6 @@ All 203 endpoints and their parameters are in the [API documentation](https://da
 - MCP server: <https://dataporium.tech/mcp>
 - Python library: <https://github.com/DataPorium/dataporium-python>
 - JavaScript library: <https://github.com/DataPorium/dataporium-js>
-- Questions: [open an issue](https://github.com/DataPorium/dataporium-examples/issues) or write to info@dataporium.tech
+- Questions: [open an issue](https://github.com/DataPorium/financial-data-api/issues) or write to info@dataporium.tech
 
 The examples are released under the [MIT License](LICENSE). Data is for information only and is not investment advice.
