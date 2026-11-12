@@ -56,7 +56,7 @@ let
     ApiKey = "YOUR_API_KEY",
     Source = Json.Document(Web.Contents("https://api.dataporium.io", [
         RelativePath = "income-statements-summary",
-        Query = [symbol = "AAPL", fiscal_year_qtr = "2024Q2"],
+        Query = [symbol = "AAPL", fiscal_year_qtr = "2025Q4"],
         Headers = [apikey = ApiKey]
     ])),
     Lines = Table.FromRecords(Source{0}[income_statement]),
