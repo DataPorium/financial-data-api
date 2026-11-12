@@ -7,7 +7,7 @@
 | `DP_PRICE(ticker)` | `=DP_PRICE("AAPL")` | The latest price |
 | `DP_PRICES(ticker, days)` | `=DP_PRICES("BTC-USD", 30)` | Date and close for the newest days |
 | `DP_ECONOMY(metric, rows)` | `=DP_ECONOMY("unemployment_Rate", 24)` | Date and value of a US economic series |
-| `DP_INCOME(symbol, quarter)` | `=DP_INCOME("AAPL", "2024Q2")` | The main lines of one quarter's income statement |
+| `DP_INCOME(symbol, quarter)` | `=DP_INCOME("AAPL", "2025Q4")` | The main lines of one quarter's income statement |
 
 ## Setup
 

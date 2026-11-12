@@ -94,7 +94,7 @@ function DP_ECONOMY(metric, rows) {
  * The main lines of a company's income statement for one quarter.
  *
  * @param {string} symbol For example "AAPL".
- * @param {string} fiscalYearQuarter For example "2024Q2".
+ * @param {string} fiscalYearQuarter For example "2025Q4".
  * @return Line and value.
  * @customfunction
  */
