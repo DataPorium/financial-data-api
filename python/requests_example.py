@@ -38,6 +38,6 @@ unemployment = dataporium("/economic-metrics", economic_metrics="unemployment_Ra
 print("Unemployment rate:", unemployment[0]["date"], unemployment[0]["value"])
 
 # Income statement of one quarter: lines under income_statement
-quarter = dataporium("/income-statements-summary", symbol="AAPL", fiscal_year_qtr="2024Q2")[0]
+quarter = dataporium("/income-statements-summary", symbol="AAPL", fiscal_year_qtr="2025Q4")[0]
 lines = {line["metric"]: line["value"] for line in quarter["income_statement"]}
-print("AAPL 2024Q2 revenue:", lines["Total Revenue"], "net income:", lines["Net Income"])
+print("AAPL 2025Q4 revenue:", lines["Total Revenue"], "net income:", lines["Net Income"])
