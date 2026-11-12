@@ -29,6 +29,6 @@ const unemployment = await dataporium("/economic-metrics", { economic_metrics: "
 console.log("Unemployment rate:", unemployment[0].date, unemployment[0].value);
 
 // Income statement of one quarter: lines under income_statement
-const [quarter] = await dataporium("/income-statements-summary", { symbol: "AAPL", fiscal_year_qtr: "2024Q2" });
+const [quarter] = await dataporium("/income-statements-summary", { symbol: "AAPL", fiscal_year_qtr: "2025Q4" });
 const lines = Object.fromEntries(quarter.income_statement.map((line) => [line.metric, line.value]));
-console.log("AAPL 2024Q2 revenue:", lines["Total Revenue"], "net income:", lines["Net Income"]);
+console.log("AAPL 2025Q4 revenue:", lines["Total Revenue"], "net income:", lines["Net Income"]);
