@@ -29,7 +29,7 @@ The answer is a list with one record per ticker. The daily bars (date, open, hig
 ## Income statement of one quarter
 
 ```bash
-curl -H "apikey: $DATAPORIUM_API_KEY" "https://api.dataporium.io/income-statements-summary?symbol=AAPL&fiscal_year_qtr=2024Q2"
+curl -H "apikey: $DATAPORIUM_API_KEY" "https://api.dataporium.io/income-statements-summary?symbol=AAPL&fiscal_year_qtr=2025Q4"
 ```
 
 ## A US economic series
