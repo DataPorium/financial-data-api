@@ -29,6 +29,6 @@ unemployment <- dataporium("economic-metrics", economic_metrics = "unemployment_
 print(head(unemployment[, c("date", "value")]))
 
 # Income statement of one quarter: lines in income_statement
-quarter <- dataporium("income-statements-summary", symbol = "AAPL", fiscal_year_qtr = "2024Q2")
+quarter <- dataporium("income-statements-summary", symbol = "AAPL", fiscal_year_qtr = "2025Q4")
 lines <- quarter$income_statement[[1]]
 print(lines[lines$metric %in% c("Total Revenue", "Net Income"), c("metric", "value")])
